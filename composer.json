@@ -1,0 +1,10 @@
+{
+    "name": "home/php-basic-nd",
+    "authors": [
+        {
+            "name": "AurimaZen",
+            "email": "gaubsaite@gmail.com"
+        }
+    ],
+    "require": {}
+}
