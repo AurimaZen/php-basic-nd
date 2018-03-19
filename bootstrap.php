@@ -22,7 +22,7 @@ class Ps4Autoloader
             // tikriname, ar turi prefiksa
             $len = strlen($prefix);
             if (strncmp($prefix, $class, $len) !== 0) {
-                // jei ne, pereiti i kita registruota autoloader
+                // jei ne, baigti
                 return;
             }
             // gauti relative klases pavadinima
