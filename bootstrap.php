@@ -16,11 +16,8 @@ class Ps4Autoloader
 
         spl_autoload_register(function ($class) {
 
-            // namecpace prefiksas
-            $prefix = 'Nfq\\Academy\\Homework\\';
-
-            // namespace prefikso direktorija
-            $base_dir = __DIR__ . '/src/';
+            // kelias= return iš add funkcijos
+             $path = $this->rules['path'];
 
             // tikriname, ar turi prefiksa
             $len = strlen($prefix);
